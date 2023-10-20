@@ -12,7 +12,7 @@ let items=[
 //      return <p>No item found</p>  
 
 // another way
- // const message=items.length===0 ? <p>No item found</p> : null;
+const message=items.length===0 ? <p>No item found</p> : null;
 
   return (
     
