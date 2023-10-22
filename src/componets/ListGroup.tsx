@@ -6,13 +6,13 @@ let items=[
         'San fransisco',
         'Tokyo'
     ];
-//items=[];  
-// example of using the if conditions  
-// if(items.length==0)
-//      return <p>No item found</p>  
+items=[];  
+//example of using the if conditions  
+if(items.length==0)
+     return <p>No item found</p>  
 
-// another way
-//const message=items.length===0 ? <p>No item found</p> : null;
+//another way
+const message=items.length===0 ? <p>No item found</p> : null;
 
   return (
     
